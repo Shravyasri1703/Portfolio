@@ -7,7 +7,7 @@ function Test() {
         whileTap={{opacity:1, scale:2}}
       drag
         >
-
+      
         </motion.div>
 
     </div>
