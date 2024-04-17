@@ -41,7 +41,7 @@ function Links() {
       "Services",
       "Portfolio",
       "Contact",
-      "About"
+      
     ]
 
   return (

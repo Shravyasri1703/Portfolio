@@ -8,25 +8,25 @@ import { motion, useScroll, useSpring, useTransform } from 'framer-motion'
 const items = [
     {
         id:1,
-        title: 'React Commerce',
+        title: 'AI Article Summarizer',
         img:'https://images.pexels.com/photos/18392123/pexels-photo-18392123/free-photo-of-heart-carved-in-rock.jpeg?auto=compress&cs=tinysrgb&w=400&lazy=load',
         desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus aspernatur quidem, maiores necessitatibus temporibus consequatur officiis totam aut exercitationem provident illo alias. Ad, nulla enim. Fugit beatae deserunt sequi harum.',
     },
     {
         id:2,
-        title: 'Next.js Commerce',
+        title: 'Amazon Clone',
         img:'https://images.pexels.com/photos/17151647/pexels-photo-17151647/free-photo-of-several-transparent-compact-audio-cassettes-with-visible-tape-and-red-inner-reels-placed-randomly-on-a-blue-background-selective-focus-technique.jpeg?auto=compress&cs=tinysrgb&w=400&lazy=load',
         desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus aspernatur quidem, maiores necessitatibus temporibus consequatur officiis totam aut exercitationem provident illo alias. Ad, nulla enim. Fugit beatae deserunt sequi harum.',
     },
     {
         id:3,
-        title: 'Vanilla js Commerce',
+        title: 'Clone Tube',
         img:'https://images.pexels.com/photos/17151647/pexels-photo-17151647/free-photo-of-several-transparent-compact-audio-cassettes-with-visible-tape-and-red-inner-reels-placed-randomly-on-a-blue-background-selective-focus-technique.jpeg?auto=compress&cs=tinysrgb&w=400&lazy=load',
         desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus aspernatur quidem, maiores necessitatibus temporibus consequatur officiis totam aut exercitationem provident illo alias. Ad, nulla enim. Fugit beatae deserunt sequi harum.',
     },
     {
         id:4,
-        title: 'Music Commerce',
+        title: 'Chatify',
         img:'https://images.pexels.com/photos/17151647/pexels-photo-17151647/free-photo-of-several-transparent-compact-audio-cassettes-with-visible-tape-and-red-inner-reels-placed-randomly-on-a-blue-background-selective-focus-technique.jpeg?auto=compress&cs=tinysrgb&w=400&lazy=load',
         desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus aspernatur quidem, maiores necessitatibus temporibus consequatur officiis totam aut exercitationem provident illo alias. Ad, nulla enim. Fugit beatae deserunt sequi harum.',
     }
@@ -73,7 +73,7 @@ function Portfolio() {
   return (
     <div className='portfolio' ref={ref}>
         <div className="progress">
-            <h1 className='head'>Featured Works</h1>
+            <h1 className='head'>MY PROJECTS</h1>
             <motion.div style={{ scaleX }} className="progressBar">
 
             </motion.div>

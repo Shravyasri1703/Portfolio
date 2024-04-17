@@ -25,7 +25,10 @@ function Contact() {
             <motion.h1 className='top-head'>Connect With Me</motion.h1>
             <motion.div className="item">
                 <h2>Mail</h2>
-                <span>hello@react.dev</span>
+                <span href='shravya.kmp@gmail.com'>shravya.kmp@gmail.com</span>
+                <br></br>
+               
+                <span href='shravya.kmp@gmail.com'>shravyasri.shravyasri21@vit.edu</span>
             </motion.div>
 
             <motion.div className="item">

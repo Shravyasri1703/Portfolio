@@ -4,6 +4,7 @@ import Hero from './Components/hero/Hero';
 import Parallax from './Components/parallax/Parallax';
 import Portfolio from './Components/portfolio/Portfolio';
 import Services from './Components/services/Services';
+
 import Test from './Test';
 import './app.scss'
 
