@@ -11,24 +11,29 @@ const items = [
         title: 'AI Article Summarizer',
         img:'https://images.pexels.com/photos/18392123/pexels-photo-18392123/free-photo-of-heart-carved-in-rock.jpeg?auto=compress&cs=tinysrgb&w=400&lazy=load',
         desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus aspernatur quidem, maiores necessitatibus temporibus consequatur officiis totam aut exercitationem provident illo alias. Ad, nulla enim. Fugit beatae deserunt sequi harum.',
+        link: 'https://github.com/Shravyasri1703/AI_SUMMARIZER',
     },
+
     {
         id:2,
         title: 'Amazon Clone',
         img:'https://images.pexels.com/photos/17151647/pexels-photo-17151647/free-photo-of-several-transparent-compact-audio-cassettes-with-visible-tape-and-red-inner-reels-placed-randomly-on-a-blue-background-selective-focus-technique.jpeg?auto=compress&cs=tinysrgb&w=400&lazy=load',
         desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus aspernatur quidem, maiores necessitatibus temporibus consequatur officiis totam aut exercitationem provident illo alias. Ad, nulla enim. Fugit beatae deserunt sequi harum.',
+       link : 'https://github.com/Shravyasri1703/Amazon_Clone'
     },
     {
         id:3,
         title: 'Clone Tube',
         img:'https://images.pexels.com/photos/17151647/pexels-photo-17151647/free-photo-of-several-transparent-compact-audio-cassettes-with-visible-tape-and-red-inner-reels-placed-randomly-on-a-blue-background-selective-focus-technique.jpeg?auto=compress&cs=tinysrgb&w=400&lazy=load',
         desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus aspernatur quidem, maiores necessitatibus temporibus consequatur officiis totam aut exercitationem provident illo alias. Ad, nulla enim. Fugit beatae deserunt sequi harum.',
+        link : 'https://github.com/Shravyasri1703/Clone_Tube'
     },
     {
         id:4,
         title: 'Chatify',
         img:'https://images.pexels.com/photos/17151647/pexels-photo-17151647/free-photo-of-several-transparent-compact-audio-cassettes-with-visible-tape-and-red-inner-reels-placed-randomly-on-a-blue-background-selective-focus-technique.jpeg?auto=compress&cs=tinysrgb&w=400&lazy=load',
         desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus aspernatur quidem, maiores necessitatibus temporibus consequatur officiis totam aut exercitationem provident illo alias. Ad, nulla enim. Fugit beatae deserunt sequi harum.',
+        link : 'https://github.com/Shravyasri1703/Full_Stack_Chat'
     }
 
 ]
@@ -52,7 +57,8 @@ const Single = ({item}) => {
                 <p>
                 {item.desc}
                 </p>
-                <button className='btns'>See Demo</button>
+                <a href={item.link}>
+                <button className='btns'>Source</button></a>
             </motion.div>
             </div>
         </div>
