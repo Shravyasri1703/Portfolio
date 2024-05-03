@@ -14,8 +14,11 @@
         margin-left: 15%;
 
         @include mobile{
-          justify-content: flex-end;
-          padding: 20px;
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+          gap: 15px;
+          margin-left: 10%;
         }
 
         span{

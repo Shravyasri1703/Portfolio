@@ -27,11 +27,12 @@
         height: 50%;
         width: 100%;
         gap: 20px;
-        align-items: center;
+        margin-left: 10px;
+       
     }
 
     img{
-     width: 50px;
+     width: 20px;
      margin-top: 15%;
     }
 }
@@ -44,18 +45,30 @@
     color: rgb(71, 1, 142);
     letter-spacing: 7px;
     margin-top: 15%;
+
+    @include mobile{
+        font-size: 40px;
+        margin-left: 30px;
+    
+        
+    }
 }
 .about{
     font-size: 130px;
     letter-spacing: 7px;
     @include mobile{
-       font-size: 36px;
+       font-size: 26px;
+       margin-left: 70px;
     }
 }
 
 .fl{
     font-size: 90px;
     letter-spacing: 7px;
+
+    @include mobile{
+        font-size: 63px;
+    }
 }
 
 .imageContainer1{
@@ -76,6 +89,15 @@
         height: 100%;
         object-fit: cover;
         margin-right: 200px;
+
+        @include mobile{
+            width: 75%;
+            height: 110%;
+            object-fit: cover;
+            margin-left: 55px;
+            margin-top: 20px;
+            
+        }
     }
 }
 
@@ -86,7 +108,11 @@
   gap: 30px;
   margin-top: 5%;
   
+   @include mobile{
+     display: flex;
+     flex-direction: column;
 
+   }
    
   }
 
@@ -99,6 +125,21 @@
     font-size: 20px;
     cursor: pointer;
     font-weight: 700;
+
+    @include mobile{
+        padding: 8px;
+        border: 1px solid white;
+        border-radius: 10px;
+        background-color: transparent;
+        color: white;
+        font-size: 20px;
+        cursor: pointer;
+        font-weight: 700;
+        margin-left: 60px;
+    
+    }
+
+   
    
   }
 
